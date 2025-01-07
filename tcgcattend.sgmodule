@@ -1,0 +1,6 @@
+#!name=tcgcattend
+#!desc=https://github.com/orannnnnnge/tcgcattend/
+
+[Script]
+faceSign = type=http-request,pattern=http://202.99.194.173/tcgcattend/m/front/kaoqin/mobile/faceSign,requires-body=1,max-size=-1,binary-body-mode=0,script-path=https://raw.githubusercontent.com/orannnnnnge/tcgcattend/main/faceSign.js
+userDayInfo = type=http-response,pattern=http://202.99.194.173/tcgcattend/m/front/kaoqin/export/userDayInfo,requires-body=1,max-size=-1,binary-body-mode=0,script-path=https://raw.githubusercontent.com/orannnnnnge/tcgcattend/main/userDayInfo.js
